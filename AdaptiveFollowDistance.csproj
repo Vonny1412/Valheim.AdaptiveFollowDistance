@@ -1,0 +1,35 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<ProjectName>AdaptiveFollowDistance</ProjectName>
+		<AssemblyName>$(ProjectName)</AssemblyName>
+		<RootNamespace>$(ProjectName)</RootNamespace>
+		<PlatformTarget>AnyCPU</PlatformTarget>
+		<ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+	</PropertyGroup>
+
+	<PropertyGroup>
+		<VersionMajor>1</VersionMajor>
+		<VersionMinor>0</VersionMinor>
+		<VersionPatch>0</VersionPatch>
+		<VersionSuffix></VersionSuffix>
+		<Authors>Yvonne Pautz</Authors>
+		<Product>AdaptiveFollowDistance</Product>
+	</PropertyGroup>
+
+	<PropertyGroup>
+		<PluginFile>Plugin</PluginFile>
+		<PluginGUID>Vonny1412.AdaptiveFollowDistance</PluginGUID>
+		<PluginName>$(Product)</PluginName>
+		<PluginClass>Plugin</PluginClass>
+	</PropertyGroup>
+
+	<PropertyGroup>
+		<CopyToPluginsSubDirectory>AdaptiveFollowDistance</CopyToPluginsSubDirectory>
+	</PropertyGroup>
+
+	<Import Project="$(SolutionDir)\Valheim.Paths.props" />
+	<Import Project="$(SolutionDir)\Valheim.Libraries.props" />
+	<Import Project="$(SolutionDir)\Valheim.Mods.targets" />
+
+</Project>

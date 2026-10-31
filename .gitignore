@@ -1,0 +1,32 @@
+
+/.commit.bat
+/.publish.bat
+/.publish.ps1
+/.publish/
+/.dev/
+
+# Build Output
+bin/
+obj/
+
+# IDE / Editor
+.vs/
+.vscode/
+
+# User / Solution Settings
+*.sln.docstates
+*.suo
+*.user
+*.userosscache
+*.rsuser
+*.slnx.user
+
+# Debug / Temp / Cache
+*.cache
+*.pdb
+*.tmp
+.cache/
+
+# OS Generated Files
+.DS_Store
+Thumbs.db
